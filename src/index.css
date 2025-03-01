@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #2C4CAC;
+    --secondary: #849FE4;
+    --accent: #6186E4;
+  }
+  .container {
+    @apply mx-auto px-6 sm:px-6 lg:px-20;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-secondary {
+    background-color: var(--secondary);
+  }
+  .text-secondary {
+    color: var(--secondary);
+  }
+  .bg-accent {
+    background-color: var(--accent);
+  }
+  .text-accent {
+    color: var(--accent);
+  }
+}
