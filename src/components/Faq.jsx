@@ -30,43 +30,37 @@ const FAQSection = () => {
 
   const faqData = [
     {
-      question: "Kenapa belajar bahasa Inggris itu penting?",
+      question: "Mengapa harus belajar bahasa Inggris itu penting?",
       answer:
-        "Belajar bahasa Inggris penting karena merupakan bahasa internasional yang digunakan dalam berbagai bidang seperti bisnis, pendidikan, dan teknologi.",
+        "Belajar bahasa Inggris penting karena merupakan bahasa multinasional digunakan berbagai negara bahkan di indonesia seperti bisnis, pendidikan, dan teknologi, kedokteran, media masa, presenter TV, dan penerjemah",
     },
     {
       question:
-        "Apa bedanya kursus di tempat kami yaitu International Language Professional dengan tempat kursus yang lain?",
+        "Bagaimana kami meningkatkan potensi kamu dalam bahasa Inggris?",
       answer:
-        "Kami menawarkan metode pembelajaran yang interaktif dan pengajar yang berpengalaman serta bersertifikat internasional.",
-    },
-    {
-      question:
-        "Bagaimana cara kami International Language Professional meningkatkan potensi kamu dalam bahasa Inggris?",
-      answer:
-        "Materi pembelajaran yang disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan tersertifikasi internasional.",
+        "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar. karena belajar bahasa harus juga belajar budaya karena itu satu kesatuan",
     },
     {
       question:
         "Usia berapa saja bisa kursus bahasa Inggris di International Language Professional?",
       answer:
-        "Kami menerima peserta dari berbagai usia, mulai dari anak-anak hingga dewasa.",
+        "Kami menerima peserta dari berbagai usia, mulai dari SD, SMP, SMA, Mahasiswa, Karyawan serts level Manajer",
     },
     {
       question:
         "Seperti apa metode dan materi pembelajaran yang digunakan International Language Professional?",
       answer:
-        "Kami menggunakan metode pembelajaran yang interaktif dan materi yang dirancang khusus untuk meningkatkan kemampuan bahasa Inggris Anda.",
+        "Kami menggunakan metode interaktif dan komunikatif sesuai materi yang dirancang khusus meningkatkan kemampuan bahasa Inggris peserta.",
     },
     {
       question: "Berapa lama sesi kelas akan berlangsung?",
-      answer: "Setiap sesi kelas berlangsung selama 90 menit.",
+      answer: "Setiap sesi kelas berlangsung selama 90 menit/pertemuan",
     },
     {
       question:
         "Bagaimana sistem pembayaran & metode pembayaran yang tersedia di International Language Professional?",
       answer:
-        "Kami menyediakan berbagai metode pembayaran, termasuk transfer bank dan pembayaran online.",
+        "Kami menyediakan berbagai metode pembayaran, termasuk transfer bank dan tunai.",
     },
   ];
 

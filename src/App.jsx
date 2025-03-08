@@ -99,49 +99,49 @@ const App = () => {
       </div>
 
       {/* Choose Section */}
-      <div id="tentang" className="container w-full h-auto md:h-[266px] py-10 md:pt-[60px]  flex justify-center items-center">
+      <div
+        id="tentang"
+        className="container w-full h-auto md:h-[266px] py-10 md:pt-[60px]  flex justify-center items-center">
         <div className="w-full md:w-[676px] flex flex-col justify-start items-center gap-6">
           <h1 className="text-black text-2xl md:text-[34px] font-bold font-['Merriweather'] text-center">
-            Tentang Kami ILP Jababeka Cikarang
+            Tentang ILP Jababeka Cikarang, Bekasi
           </h1>
           <p className="text-[#838383] text-sm md:text-base font-normal font-['Roboto'] text-center">
             Kami adalah International Language Professional (ILP) yang
-            berkomitmen untuk memberikan kursus bahasa Inggris dan Jepang
-            berkualitas yang telah dirancang sedemikian rupa mencapai tujuan
-            pemahaman anda dan sebagai tempat pembelajaran bahasa anda, kami
-            menyediakan lingkungan belajar teraktif, tenaga pengajar
-            berpengalaman dan bersertifikat.
+            berkomitmen melayani siswa belajar bahasa Inggris dan Jepang
+            berkualitas telah dirancang sedemikian rupa mudah dipahami mencapai
+            tujuan. tempat belajar, kami menyediakan suasana interaktif dan
+            inovatif dengan tenaga pengajar berpengalaman dan bersertifikat
+            sesuai bidang dan jurusan keahliannya.
           </p>
         </div>
       </div>
 
       {/* Branding Section */}
-      <div id="branding" className=" px-6 lg:px-20 w-full h-auto md:h-[760px] py-10 md:py-[60px] flex flex-col md:flex-row justify-center items-center gap-10 md:gap-10">
+      <div
+        id="branding"
+        className=" px-6 lg:px-20 w-full h-auto md:h-[760px] py-10 md:py-[60px] flex flex-col md:flex-row justify-center items-center gap-10 md:gap-10">
         <div className="w-full md:w-[650px] flex flex-col justify-start items-start gap-6 ">
           <div className="flex flex-col justify-start items-start gap-5">
             <h2 className="text-black text-2xl md:text-[34px] font-bold font-['Merriweather']">
-              Apa yang didapat jika belajar <br />
-              bahasa di tempat kami?
+              Mengapa harus belajar bahasa di ILP?
             </h2>
             <p className="text-[#838383] text-sm md:text-base font-normal font-['Roboto']">
-              "Berkembangnya industri bisnis digital dalam beberapa tahun
-              terakhir telah menciptakan peluang kerja baru di berbagai bidang
-              yang terkait dengan transformasi digital. Dengan menguasai bahasa
-              Inggris dan Jepang melalui kursus di International Language
-              Professional (ILP), Anda dapat meningkatkan peluang karir di
-              berbagai sektor, mulai dari digital marketing, pengembangan
-              startup, analisis data bisnis, hingga profesional di perusahaan
-              berbasis teknologi global. Bergabunglah dengan ILP Cikarang untuk
-              mempersiapkan diri menghadapi tantangan dan peluang di era digital
-              dengan keterampilan bahasa yang unggul."
+              "Kemajuan teknologi dan era globalisasi bahwa bahasa asing bahasa
+              inggris mutlak harus di pahami semua siswa, mahasiswa dan karyawan
+              mengingat orang asia yang telah banyak belajar di negara luar
+              khususnya negara eropa seperti australia, inggris, new zealand,
+              prancis dan negara lainnya. sedangkan di negara asi khususnya
+              indonesia dituntut juga menguasai bahasa inggris sebagai presenter
+              TV penerjemah, sekretaris terutama level Manajer lainnya"
             </p>
           </div>
           <div className="flex flex-col justify-start items-start gap-4">
             {[
-              "Meningkatkan kemampuan bahasa Inggris dan Jepang Anda secara signifikan.",
-              "Jadwal kursus fleksibel yang dapat disesuaikan dengan kebutuhan Anda.",
-              "Harga yang diberikan relatif murah dan terjangkau untuk anda",
-              "Metode pembelajaran interaktif dan menyenangkan.",
+              "General English",
+              "Bussiness English",
+              "Special Conversation Class",
+              "IELTS requirenment to study and study and work in Overseas",
             ].map((text, index) => (
               <div key={index} className="flex items-center gap-3.5">
                 <img src="assets/icons/check.svg" width={44} alt="Check Icon" />
@@ -184,7 +184,7 @@ const App = () => {
         <div className="w-full max-w-[1440px] flex flex-col justify-start items-start gap-5">
           {/* Judul */}
           <div className="w-full lg:w-[676px] text-black text-2xl lg:text-[34px] font-bold font-['Merriweather'] tracking-tight">
-            Keunggulan belajar di Kursus Bahasa Inggris dan Bahasa Jepang di
+            Keunggulan belajar Bahasa Inggris dan Bahasa Jepang di
             Cikarang By International Language Professional
           </div>
 
@@ -195,7 +195,7 @@ const App = () => {
               <img src="assets/icons/lock.svg" alt="Lock Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Maksimalkan Potensimu dengan Pembelajaran Terarah
+                  Maksimalkan Potensi belajar mencapai tujuanmu
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Raih keahlian bahasa dengan metode pembelajaran interaktif
@@ -210,7 +210,8 @@ const App = () => {
               <img src="assets/icons/book.svg" alt="Book Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Belajar Langsung Dari Pengajar di Tingkat Mahir
+                  Belajar dengan tenaga pengajar berpengalaman lebih dari 15
+                  Tahun
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   “Mendapatkan pengalaman dan pembelajaran dari ahli yang sudah
@@ -224,7 +225,7 @@ const App = () => {
               <img src="assets/icons/noted.svg" alt="Noted Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Jangan Biarkan Mimpimu Hanya Sekadar Angan!
+                  Jangan hanya angan-angan tapi lakukan
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Wujudkan impian berkarier di dunia global dengan menguasai
@@ -239,7 +240,7 @@ const App = () => {
               <img src="assets/icons/learn.svg" alt="Learn Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Metode Pembelajaran Inovatif & Fleksibel
+                  Metode belajar inovatif & interaktif
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Belajar kapan saja dan di mana saja dengan materi berkualitas
@@ -268,7 +269,7 @@ const App = () => {
               <img src="assets/icons/open-book.svg" alt="Open Book Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Dapatkan Sertifikat Resmi yang sudah Diakui
+                  Tersedia sertifikat masing-masing
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Buktikan kemampuan bahasamu dengan sertifikat profesional
@@ -285,7 +286,9 @@ const App = () => {
       <div className="my-20"></div>
 
       {/* Biaya Section */}
-      <div id="pilihan" className="w-full h-auto lg:h-[899px] px-4 lg:px-[34px] pt-10 lg:pt-[60px] pb-10 flex justify-center items-center">
+      <div
+        id="pilihan"
+        className="w-full h-auto lg:h-[899px] px-4 lg:px-[34px] pt-10 lg:pt-[60px] pb-10 flex justify-center items-center">
         <div className="w-full max-w-[1440px] flex flex-col justify-start items-center gap-6 lg:gap-10">
           {/* Judul dan Deskripsi */}
           <div className="w-full lg:w-[674px] text-center">
@@ -312,12 +315,12 @@ const App = () => {
               <p className="text-neutral-200 text-sm font-light font-['Roboto'] tracking-tight">
                 Tingkatkan keterampilan Bahasa Inggris dan Bahasa Jepang dengan
                 karir yang lebih luas? ILP Jababeka Cikarang adalah pilihan
-                tepat untuk belajar bahasa dengan metode interaktif dan pengajar
-                di tingkat mahir. Kami menyediakan kursus bahasa untuk semua
-                tingkatan, mulai dari pemula hingga tingkat mahir.
+                tepat belajar bahasa dengan metode interaktif dan pengajar di
+                tingkat sampai dengan mahir. ILP menyediakan belajat bahasa pada
+                semua tingkatan, mulai dari pemula sampai tingkat mahir.
                 <br />
-                Bergabunglah segera dengan kami kembangkan karirmu dengan
-                kemampuan bahasa yang lebih baik. Daftar sekarang dan raih
+                Bergabunglah sekarang juga dengan kami kembangkan karirmu dengan
+                menguasai bahasa yang lebih baik. Daftar sekarang dan raih
                 kesempatan emas untuk masa depan yang lebih cerah!
               </p>
             </div>
@@ -344,19 +347,19 @@ const App = () => {
                     Rp 500.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Diskon 10%
+                    Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Umum
+                    Kelas Reguler
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
-                    Yang bisa kamu dapat dengan mengikuti kelas ini :
+                    Apa yang anda dapatkan:
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "4x Pertemuan selama 1 bulan, dibimbing oleh pengajar mahir",
-                      "Mendapatkan tingkatan yang dinginkan selama 1 bulan",
-                      "Mendapatkan sertifikat",
+                      "4 x Pertemuan selama 1 bulan",
+                      "Lama belajar/level 2-3 bulan",
+                      "Sertifikat sesuai level",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img
@@ -382,19 +385,19 @@ const App = () => {
                     Rp 700.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Diskon 20%
+                    Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Umum
+                    Kelas Reguler
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
-                    Yang bisa kamu dapat dengan mengikuti kelas ini :
+                    Apa yang anda dapatkan:
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "8x Pertemuan selama 1 bulan, dibimbing oleh pengajar mahir",
-                      "Mendapatkan tingkatan yang dinginkan selama 1 bulan",
-                      "Mendapatkan sertifikat",
+                      "8 x Pertemuan selama 1 bulan",
+                      "Lama belajar/level 2-3 bulan",
+                      "Sertifikat sesuai level",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img
@@ -417,22 +420,22 @@ const App = () => {
                 {/* Kartu 3 */}
                 <div className="w-full h-auto lg:h-[445px] bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
-                    Rp 1.500.000 / Bulan
+                    Rp 1.550.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Diskon 20%
+                    Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Umum
+                    Kelas Private
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
-                    Yang bisa kamu dapat dengan mengikuti kelas ini :
+                    Apa yang anda dapatkan:
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "8x Pertemuan selama 1 bulan, dibimbing oleh pengajar mahir",
-                      "Mendapatkan tingkatan yang dinginkan selama 1 bulan",
-                      "Mendapatkan sertifikat",
+                      "8 x Pertemuan selama 1 bulan",
+                      "Lama belajar/level 2-3 bulan",
+                      "Sertifikat sesuai level",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img

@@ -24,8 +24,7 @@ const Footer = () => {
 
             {/* Konten Teks dan Ikon */}
             <div className="w-full flex flex-col justify-start items-center gap-8">
-              {/* Ikon Facebook */}
-              <div className="flex gap-6">
+              {/* <div className="flex gap-6">
                 {[
                   { img: "assets/icons/logos_facebook.svg" },
                   {
@@ -41,7 +40,7 @@ const Footer = () => {
                 ].map((item, index) => (
                   <img key={index} src={item.img} alt="Ikon Facebook" />
                 ))}
-              </div>
+              </div> */}
 
               {/* Teks Footer */}
               <div className="w-full text-center">
