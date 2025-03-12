@@ -32,25 +32,25 @@ const FAQSection = () => {
     {
       question: "Mengapa harus belajar bahasa Inggris itu penting?",
       answer:
-        "Belajar bahasa Inggris penting karena merupakan bahasa multinasional digunakan berbagai negara bahkan di indonesia seperti bisnis, pendidikan, dan teknologi, kedokteran, media masa, presenter TV, dan penerjemah",
+        "Belajar bahasa Inggris penting karena merupakan bahasa multinasional digunakan berbagai negara bahkan di indonesia sebagai bahasa ke 2 digunakan dalam bidang bisnis, pendidikan, dan teknologi, kedokteran, media masa, presenter TV, dan penerjemah",
     },
     {
       question:
-        "Bagaimana kami meningkatkan potensi kamu dalam bahasa Inggris?",
+        "Bagaimana kami meningkatkan potensi anda dalam bahasa Inggris?",
       answer:
         "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar. karena belajar bahasa harus juga belajar budaya karena itu satu kesatuan",
     },
     {
       question:
-        "Usia berapa saja bisa kursus bahasa Inggris di International Language Professional?",
+        "Usia berapa saja bisa belajar bahasa Inggris di International Language Professional?",
       answer:
-        "Kami menerima peserta dari berbagai usia, mulai dari SD, SMP, SMA, Mahasiswa, Karyawan serts level Manajer",
+        "Kami menerima peserta dari berbagai usia, mulai dari SD, SMP, SMA, Mahasiswa, Karyawan serta level Manajer",
     },
     {
       question:
         "Seperti apa metode dan materi pembelajaran yang digunakan International Language Professional?",
       answer:
-        "Kami menggunakan metode interaktif dan komunikatif sesuai materi yang dirancang khusus meningkatkan kemampuan bahasa Inggris peserta.",
+        "Kami menggunakan metode interaktif dan komunikatif.",
     },
     {
       question: "Berapa lama sesi kelas akan berlangsung?",
@@ -60,12 +60,12 @@ const FAQSection = () => {
       question:
         "Bagaimana sistem pembayaran & metode pembayaran yang tersedia di International Language Professional?",
       answer:
-        "Kami menyediakan berbagai metode pembayaran, termasuk transfer bank dan tunai.",
+        "Kami menyediakan berbagai metode pembayaran, termasuk transfer dan tunai.",
     },
   ];
 
   return (
-    <div className="w-full h-auto lg:h-[924px] px-4 lg:px-[198px] pb-[60px] flex justify-center items-center">
+    <div className="w-full h-auto px-4 lg:px-[198px] pb-[60px] flex justify-center items-center">
       <div className="w-full max-w-[1440px] flex flex-col justify-start items-center">
         {/* Judul */}
         <h1 className="w-full lg:w-[695px] text-center text-[#070b13] text-3xl lg:text-5xl font-bold font-['Merriweather'] mb-10">

@@ -13,6 +13,16 @@ const Footer = () => {
               International Language Professional
             </h1>
           </div>
+          <div className="flex flex-col gap-3">
+            <h1 className="text-3xl text-primary font-bold">lokasi</h1>
+            <div className="flex flex-col gap-2">
+              <ul className="list-disc pl-6">
+                <li>Ruko Pinangsia</li>
+                <li>Medogreen Lippo Cikarang (Comming soon)</li>
+                <li>Serang baru blok E (berdekatan dengan SMAN 1, Serang Bekasi)</li>
+              </ul>
+            </div>
+          </div>
 
           {/* Konten Utama */}
           <div className="w-full flex flex-col justify-start items-center gap-10">
@@ -43,6 +53,7 @@ const Footer = () => {
               </div> */}
 
               {/* Teks Footer */}
+
               <div className="w-full text-center">
                 <p className="opacity-70 text-[#070b13] text-sm font-light font-['Roboto'] tracking-tight">
                   © 2025 Copyright by International Language Professional

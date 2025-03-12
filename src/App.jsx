@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { TiArrowSortedDown } from "react-icons/ti";
 import FAQSection from "./components/Faq";
 import Footer from "./components/Footer";
+import Gallery from "./components/Galery";
 
 const App = () => {
   const REVIEWS = [
@@ -57,9 +58,10 @@ const App = () => {
             </span>
           </div>
           <div className="w-full md:w-[470px] text-center text-[#838383] text-sm md:text-base font-normal font-['Roboto'] tracking-tight">
-            "Program kursus terbaik dengan pendekatan praktis & interaktif.{" "}
+            "Program belajar bahasa dengan pendekatan praktis & interaktif.{" "}
             <br />
-            Kuasai bahasa Inggris & Jepang dengan efektif di Cikarang."
+            Kuasai bahasa Inggris, Jepang & bahasa asing lainnya dengan efektif
+            di ILP."
           </div>
           <div className="flex flex-col justify-start items-center mt-6 md:mt-10">
             <div className="w-full md:w-auto shadow-[0px_2px_12px_0px_rgba(0,0,0,0.14)] flex flex-col md:flex-row justify-center items-center">
@@ -72,7 +74,7 @@ const App = () => {
                 Daftar Sekarang Disini
               </button>
             </div>
-            <div className="flex flex-col md:flex-row justify-center items-center mt-6 md:mt-10 gap-3">
+            {/* <div className="flex flex-col md:flex-row justify-center items-center mt-6 md:mt-10 gap-3">
               <div className="flex -space-x-7">
                 {REVIEWS.map((item, index) => (
                   <img
@@ -93,7 +95,7 @@ const App = () => {
                   from 200+ reviews
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -131,9 +133,10 @@ const App = () => {
               inggris mutlak harus di pahami semua siswa, mahasiswa dan karyawan
               mengingat orang asia yang telah banyak belajar di negara luar
               khususnya negara eropa seperti australia, inggris, new zealand,
-              prancis dan negara lainnya. sedangkan di negara asi khususnya
-              indonesia dituntut juga menguasai bahasa inggris sebagai presenter
-              TV penerjemah, sekretaris terutama level Manajer lainnya"
+              prancis dan negara lainnya. sedangkan di negara asia khususnya
+              indonesia di tuntut juga menguasai bahasa inggris sebagai
+              presenter TV penerjemah, sekretaris terutama level Manajer
+              lainnya"
             </p>
           </div>
           <div className="flex flex-col justify-start items-start gap-4">
@@ -141,7 +144,8 @@ const App = () => {
               "General English",
               "Bussiness English",
               "Special Conversation Class",
-              "IELTS requirenment to study and study and work in Overseas",
+              "IELTS requirenment to study and work in overseas",
+              "Native speaker di hadirkan pada waktu tertentu sesuai kebutuhan",
             ].map((text, index) => (
               <div key={index} className="flex items-center gap-3.5">
                 <img src="assets/icons/check.svg" width={44} alt="Check Icon" />
@@ -170,7 +174,7 @@ const App = () => {
           </div>
         </div>
         <img
-          src="assets/images/Frame 30.png"
+          src="assets/images/images.png"
           alt="Branding Illustration"
           className="w-full md:w-auto mt-10 md:mt-0"
         />
@@ -184,8 +188,8 @@ const App = () => {
         <div className="w-full max-w-[1440px] flex flex-col justify-start items-start gap-5">
           {/* Judul */}
           <div className="w-full lg:w-[676px] text-black text-2xl lg:text-[34px] font-bold font-['Merriweather'] tracking-tight">
-            Keunggulan belajar Bahasa Inggris dan Bahasa Jepang di
-            Cikarang By International Language Professional
+            Keunggulan belajar bahasa Inggris dan bahasa Jepang di Cikarang By
+            International Language Professional
           </div>
 
           {/* Grid untuk Kartu Keunggulan */}
@@ -200,7 +204,7 @@ const App = () => {
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Raih keahlian bahasa dengan metode pembelajaran interaktif
                   yang telah terbukti efektif. Belajar bersama tutor profesional
-                  untuk hasil terbaik!"
+                  untuk hasil maksimal!"
                 </div>
               </div>
             </div>
@@ -214,8 +218,8 @@ const App = () => {
                   Tahun
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
-                  “Mendapatkan pengalaman dan pembelajaran dari ahli yang sudah
-                  pernah tinggal di eropa, dengan mengenal budaya disana
+                  “Mendapatkan tenaga pengajar yang berpengalaman dan pernah
+                  tinggal di eropa"
                 </div>
               </div>
             </div>
@@ -225,7 +229,7 @@ const App = () => {
               <img src="assets/icons/noted.svg" alt="Noted Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Jangan hanya angan-angan tapi lakukan
+                  Segera lakukan jangan hanya rencana
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Wujudkan impian berkarier di dunia global dengan menguasai
@@ -244,7 +248,7 @@ const App = () => {
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Belajar kapan saja dan di mana saja dengan materi berkualitas
-                  tinggi yang dirancang untuk semua level pembelajaran!"
+                  yang dirancang untuk semua level pembelajaran!"
                 </div>
               </div>
             </div>
@@ -269,10 +273,10 @@ const App = () => {
               <img src="assets/icons/open-book.svg" alt="Open Book Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Tersedia sertifikat masing-masing
+                  Tersedia sertifikat sesuai tingkatan
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
-                  "Buktikan kemampuan bahasamu dengan sertifikat profesional
+                  "Buktikan kemampuan bahasamu dengan sertifikat professional
                   yang dapat meningkatkan peluang kerja dan pendidikan lebih
                   lanjut!"
                 </div>
@@ -315,9 +319,9 @@ const App = () => {
               <p className="text-neutral-200 text-sm font-light font-['Roboto'] tracking-tight">
                 Tingkatkan keterampilan Bahasa Inggris dan Bahasa Jepang dengan
                 karir yang lebih luas? ILP Jababeka Cikarang adalah pilihan
-                tepat belajar bahasa dengan metode interaktif dan pengajar di
-                tingkat sampai dengan mahir. ILP menyediakan belajat bahasa pada
-                semua tingkatan, mulai dari pemula sampai tingkat mahir.
+                tepat belajar bahasa dengan metode interaktif dan pengajar
+                sampai dengan tingkat mahir. ILP menyediakan belajar bahasa pada
+                semua tingkatan, dari pemula sampai tingkat mahir.
                 <br />
                 Bergabunglah sekarang juga dengan kami kembangkan karirmu dengan
                 menguasai bahasa yang lebih baik. Daftar sekarang dan raih
@@ -342,11 +346,11 @@ const App = () => {
               {/* Grid Kartu Harga */}
               <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {/* Kartu 1 */}
-                <div className="w-full h-auto lg:h-[445px] bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                <div className="w-full h-auto  bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 500.000 / Bulan
                   </h3>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
@@ -360,6 +364,7 @@ const App = () => {
                       "4 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
+                      "Modul gratis",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img
@@ -372,6 +377,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
+                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang
@@ -380,11 +386,11 @@ const App = () => {
                 </div>
 
                 {/* Kartu 2 */}
-                <div className="w-full h-auto lg:h-[445px] bg-[#6186e4] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                <div className="w-full h-auto  bg-[#6186e4] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 700.000 / Bulan
                   </h3>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
@@ -398,6 +404,7 @@ const App = () => {
                       "8 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
+                      "Modul gratis",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img
@@ -410,6 +417,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
+                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang
@@ -418,11 +426,11 @@ const App = () => {
                 </div>
 
                 {/* Kartu 3 */}
-                <div className="w-full h-auto lg:h-[445px] bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                <div className="w-full h-auto  bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 1.550.000 / Bulan
                   </h3>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 20%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
@@ -436,6 +444,7 @@ const App = () => {
                       "8 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
+                      "Modul gratis",
                     ].map((item, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <img
@@ -448,6 +457,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
+                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang
@@ -461,9 +471,14 @@ const App = () => {
       </div>
       {/* Biaya Section */}
 
+      <div className="mt-20"></div>
       {/* FAQ Section */}
       <FAQSection />
       {/* FAQ Section */}
+
+      {/* Galery */}
+      <Gallery />
+      {/* Galery */}
 
       {/* Footer */}
       <Footer />
