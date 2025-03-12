@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { TiThMenu } from "react-icons/ti";
+import Logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
       <div className="w-full h-[85px] px-4 lg:px-[34px] py-[18px] bg-white shadow-[0px_4px_8px_0px_rgba(0,0,0,0.08)] flex justify-between items-center">
         {/* Logo */}
         <div className="relative">
-          <img src="assets/images/Logo.png" width={130} alt="" />
+          <img src={Logo} width={130} alt="" />
         </div>
 
         {/* Tombol Hamburger (Mobile) */}

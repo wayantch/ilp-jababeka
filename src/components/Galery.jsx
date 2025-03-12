@@ -3,27 +3,27 @@ import React from "react";
 const Gallery = () => {
   const images = [
     {
-      src: "/src/assets/gallery/image2.jpg",
+      src: "assets/gallery/image2.jpg",
       alt: "Lokasi Kursus Bahasa",
       description: "Gedung kursus bahasa dengan fasilitas modern dan nyaman.",
     },
     {
-      src: "/src/assets/gallery/image1.jpg",
+      src: "assets/gallery/image1.jpg",
       alt: "Kota di malam hari",
       description: "Pembelajaran yang menyenangkan",
     },
     {
-      src: "/src/assets/gallery/image7.jpg",
+      src: "assets/gallery/image7.jpg",
       alt: "Gunung yang tinggi",
       description: "Memperkenalkan ILP di santoleo",
     },
     {
-      src: "/src/assets/images/ciktim.jpg",
+      src: "assets/gallery/ciktim.jpg",
       alt: "Hutan hijau yang lebat",
       description: "Memperkenalkan ILP di SMAN 1 Ciktim",
     },
     {
-      src: "/src/assets/gallery/image5.jpg",
+      src: "assets/gallery/image5.jpg",
       alt: "Pantai yang eksotis",
       description: "Rapat manajemen tim",
     },
