@@ -70,9 +70,11 @@ const App = () => {
                 placeholder="Masukkan email anda disini!"
                 className="w-full md:w-[400px] px-4 py-3 md:pl-6 md:pr-[140px] md:py-5 bg-white rounded-t-lg md:rounded-tl-lg md:rounded-bl-lg md:rounded-tr-none border border-[#aaaaaa]/40 text-center md:text-left text-[#aaaaaa] text-sm md:text-base font-normal font-['Roboto'] tracking-tight focus:outline-none"
               /> */}
-              <button className="w-full md:w-80 px-6 py-3 md:py-5 bg-[#2c4cac] rounded-2xl text-[#ecf0f8] text-sm md:text-base font-normal font-['Roboto'] tracking-tight cursor-pointer">
-                Daftar Sekarang Disini
-              </button>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4zsePoE3QVMrAfg5jFhyB6q8giEtRvu04i0KREeWVeKpwbw/viewform?usp=header_link">
+                <button className="w-full md:w-80 px-6 py-3 md:py-5 bg-[#2c4cac] rounded-2xl text-[#ecf0f8] text-sm md:text-base font-normal font-['Roboto'] tracking-tight cursor-pointer">
+                  Daftar Sekarang Disini
+                </button>
+              </a>
             </div>
             {/* <div className="flex flex-col md:flex-row justify-center items-center mt-6 md:mt-10 gap-3">
               <div className="flex -space-x-7">
@@ -156,12 +158,18 @@ const App = () => {
             ))}
           </div>
           <div className="flex gap-5">
-            <a href="" className="cursor-pointer">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc4zsePoE3QVMrAfg5jFhyB6q8giEtRvu04i0KREeWVeKpwbw/viewform?usp=header"
+              className="cursor-pointer">
               <button className="w-full md:w-auto px-6 py-3 md:px-8 md:py-4 bg-[#2c4cac] rounded-lg text-[#ecf0f8] text-sm md:text-lg font-bold font-['Roboto'] cursor-pointer">
                 Daftarkan dirimu sekarang
               </button>
             </a>
-            <a href="" className="cursor-pointer">
+            <a
+              href="https://wa.me/6281803061157?text=Halo%20ILP%2C%20saya%20ingin%20konsultasi"
+              className="cursor-pointer"
+              target="_blank"
+              rel="noopener noreferrer">
               <button className="w-full md:w-auto px-6 py-3 md:px-8 md:py-4 bg-[#849fe4] rounded-lg flex items-center gap-2 text-[#ecf0f8] text-sm md:text-lg font-bold font-['Roboto'] cursor-pointer">
                 <img
                   src="assets/icons/logos_whatsapp-icon.svg"
@@ -214,12 +222,11 @@ const App = () => {
               <img src="assets/icons/book.svg" alt="Book Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Belajar dengan tenaga pengajar berpengalaman lebih dari 15
-                  Tahun
+                  Bagaimana profil tenaga pengajar?
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
-                  “Mendapatkan tenaga pengajar yang berpengalaman dan pernah
-                  tinggal di eropa"
+                  “Pengajar telah berpengalaman lebih dari 15 tahun dengan
+                  jurusan yang sama"
                 </div>
               </div>
             </div>
@@ -229,7 +236,7 @@ const App = () => {
               <img src="assets/icons/noted.svg" alt="Noted Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Segera lakukan jangan hanya rencana
+                  Daftarkan sekarang. Wujudkan rencana mu
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Wujudkan impian berkarier di dunia global dengan menguasai
@@ -297,7 +304,7 @@ const App = () => {
           {/* Judul dan Deskripsi */}
           <div className="w-full lg:w-[674px] text-center">
             <h1 className="text-black text-2xl lg:text-[34px] font-bold font-['Merriweather'] tracking-tight">
-              Biaya Kursus yang Terjangkau di Jababeka Cikarang & Sekitarnya
+              Biaya Kursus sangat Terjangkau di Jababeka Cikarang & Sekitarnya
             </h1>
             <p className="mt-4 text-[#838383] text-sm lg:text-base font-normal font-['Roboto'] tracking-tight">
               Harga yang anda keluarkan untuk belajar di kami ini lebih murah
@@ -377,7 +384,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
-                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
+                  <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang
@@ -417,7 +424,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
-                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
+                  <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang
@@ -457,7 +464,7 @@ const App = () => {
                       </li>
                     ))}
                   </ul>
-                    <img src="/src/assets/images/buku.jpg" width={80} alt="" />
+                  <img src="/src/assets/images/buku.jpg" width={80} alt="" />
                   <a href="">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
                       Daftar sekarang

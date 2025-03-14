@@ -45,7 +45,9 @@ const Navbar = () => {
               </div>
             </a>
           </div>
-          <a href="#daftar" className="px-12 py-3.5 bg-primary rounded-2xl justify-center items-center flex">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc4zsePoE3QVMrAfg5jFhyB6q8giEtRvu04i0KREeWVeKpwbw/viewform?usp=header"
+            className="px-12 py-3.5 bg-primary rounded-2xl justify-center items-center flex">
             <div className="text-[#ecf0f8] text-lg font-bold font-['Roboto'] tracking-tight hover:text-primary">
               Daftar Sekarang
             </div>

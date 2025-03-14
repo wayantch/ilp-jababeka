@@ -38,7 +38,7 @@ const FAQSection = () => {
       question:
         "Bagaimana kami meningkatkan potensi anda dalam bahasa Inggris?",
       answer:
-        "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar. karena belajar bahasa harus juga belajar budaya karena itu satu kesatuan",
+        "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar negeri. karena belajar bahasa juga belajar budaya karena itu satu kesatuan",
     },
     {
       question:
