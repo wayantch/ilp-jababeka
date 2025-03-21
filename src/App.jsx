@@ -358,7 +358,7 @@ const App = () => {
                     Rp 500.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 10% s/d 20%
+                    Diskon 10% s/d 30%
                   </p>
                   <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
                     Kelas Reguler
@@ -368,7 +368,7 @@ const App = () => {
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "4 x Pertemuan selama 1 bulan",
+                      "5 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
                       "Modul gratis",
