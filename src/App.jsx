@@ -58,7 +58,7 @@ const App = () => {
             </span>
           </div>
           <div className="w-full md:w-[470px] text-center text-[#838383] text-sm md:text-base font-normal font-['Roboto'] tracking-tight">
-            "Program belajar bahasa dengan pendekatan praktis & interaktif.{" "}
+            "Program belajar bahasa dengan pendekatan praktis & Komunikatif.{" "}
             <br />
             Kuasai bahasa Inggris, Jepang & bahasa asing lainnya dengan efektif
             di ILP."
@@ -145,8 +145,8 @@ const App = () => {
             {[
               "General English",
               "Bussiness English",
-              "Special Conversation Class",
               "IELTS requirenment to study and work in overseas",
+              "Special Conversation Class > being prepared to open soon",
               "Native speaker di hadirkan pada waktu tertentu sesuai kebutuhan",
             ].map((text, index) => (
               <div key={index} className="flex items-center gap-3.5">
@@ -212,7 +212,7 @@ const App = () => {
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Raih keahlian bahasa dengan metode pembelajaran interaktif
                   yang telah terbukti efektif. Belajar bersama tutor profesional
-                  untuk hasil maksimal!"
+                  hasil maksimal!"
                 </div>
               </div>
             </div>
@@ -251,7 +251,7 @@ const App = () => {
               <img src="assets/icons/learn.svg" alt="Learn Icon" />
               <div className="flex flex-col justify-start items-start gap-1">
                 <div className="text-black text-base font-bold font-['Merriweather']">
-                  Metode belajar inovatif & interaktif
+                  Metode belajar praktis, inovatif & interaktif
                 </div>
                 <div className="text-[#838383] text-sm font-light font-['Roboto'] tracking-tight">
                   "Belajar kapan saja dan di mana saja dengan materi berkualitas
@@ -323,6 +323,10 @@ const App = () => {
               <h3 className="text-white text-xl lg:text-2xl font-bold font-['Merriweather']">
                 International Language Professional
               </h3>
+              <h3 className="text-white text-xl lg:text-2xl font-bold font-['Merriweather']">
+                Free trial <br />
+                (belajar gratis)
+              </h3>
               <p className="text-neutral-200 text-sm font-light font-['Roboto'] tracking-tight">
                 Tingkatkan keterampilan Bahasa Inggris dan Bahasa Jepang dengan
                 karir yang lebih luas? ILP Jababeka Cikarang adalah pilihan
@@ -354,14 +358,14 @@ const App = () => {
               <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {/* Kartu 1 */}
                 <div className="w-full h-auto  bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
+                    Kelas Reguler
+                  </p>
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 500.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 30%
-                  </p>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Reguler
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
@@ -394,14 +398,14 @@ const App = () => {
 
                 {/* Kartu 2 */}
                 <div className="w-full h-auto  bg-[#6186e4] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
+                    Kelas Reguler
+                  </p>
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 700.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 20%
-                  </p>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Reguler
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
@@ -434,14 +438,14 @@ const App = () => {
 
                 {/* Kartu 3 */}
                 <div className="w-full h-auto  bg-[#2c4cac] rounded-xl p-6 flex flex-col justify-start items-start gap-4">
+                  <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
+                    Kelas Private
+                  </p>
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
                     Rp 1.550.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
                     Diskon 10% s/d 20%
-                  </p>
-                  <p className="text-neutral-200 text-xs font-normal font-['Roboto'] leading-tight">
-                    Kelas Private
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:

@@ -32,17 +32,17 @@ const FAQSection = () => {
     {
       question: "Mengapa harus belajar bahasa Inggris itu penting?",
       answer:
-        "Belajar bahasa Inggris penting karena merupakan bahasa multinasional digunakan berbagai negara bahkan di indonesia sebagai bahasa ke 2 digunakan dalam bidang bisnis, pendidikan, dan teknologi, kedokteran, media masa, presenter TV, dan penerjemah",
+        "Belajar bahasa Inggris penting karena merupakan bahasa international digunakan berbagai negara bahkan di indonesia sebagai bahasa ke 2 dalam bidang bisnis, pendidikan, dan teknologi, kedokteran, media masa, presenter TV, dan penerjemah",
     },
     {
       question:
         "Bagaimana kami meningkatkan potensi anda dalam bahasa Inggris?",
       answer:
-        "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar negeri. karena belajar bahasa juga belajar budaya karena itu satu kesatuan",
+        "Materi disesuaikan dengan kebutuhan dan tingkat kemampuan peserta belajar sesuai hasil pretest calon siswa. Setiap kelas akan dibimbing oleh pengajar berpengalaman dan bersertifikat. sebagian tenaga pengajar pernah tinggal di luar negeri sehingga memahami tentang budaya luar negeri. karena belajar bahasa juga belajar budaya karena satu kesatuan",
     },
     {
       question:
-        "Usia berapa saja bisa belajar bahasa Inggris di International Language Professional?",
+        "Usia berapa saja bisa belajar bahasa Inggris di International Language Professional(ILP)?",
       answer:
         "Kami menerima peserta dari berbagai usia, mulai dari SD, SMP, SMA, Mahasiswa, Karyawan serta level Manajer",
     },
@@ -50,17 +50,17 @@ const FAQSection = () => {
       question:
         "Seperti apa metode dan materi pembelajaran yang digunakan International Language Professional?",
       answer:
-        "Kami menggunakan metode interaktif dan komunikatif.",
+        "Kami menggunakan metode praktis, interaktif dan komunikatif.",
     },
     {
       question: "Berapa lama sesi kelas akan berlangsung?",
-      answer: "Setiap sesi kelas berlangsung selama 90 menit/pertemuan",
+      answer: "Setiap sesi berlangsung selama 90 menit/pertemuan",
     },
     {
       question:
         "Bagaimana sistem pembayaran & metode pembayaran yang tersedia di International Language Professional?",
       answer:
-        "Kami menyediakan berbagai metode pembayaran, termasuk transfer dan tunai.",
+        "Kami menyediakan berbagai metode pembayaran transfer dan tunai.",
     },
   ];
 
@@ -69,7 +69,7 @@ const FAQSection = () => {
       <div className="w-full max-w-[1440px] flex flex-col justify-start items-center">
         {/* Judul */}
         <h1 className="w-full lg:w-[695px] text-center text-[#070b13] text-3xl lg:text-5xl font-bold font-['Merriweather'] mb-10">
-          Frequently Asking Questions
+          Frequently Ask Questions
         </h1>
 
         {/* Daftar FAQ */}
