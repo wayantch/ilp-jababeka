@@ -431,7 +431,7 @@ const App = () => {
                   <img src="assets/images/buku.jpg" width={80} alt="" />
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4zsePoE3QVMrAfg5jFhyB6q8giEtRvu04i0KREeWVeKpwbw/viewform?usp=header">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
-                      Daftar sekarang
+                      Daftar sekarang 
                     </button>
                   </a>
                 </div>
