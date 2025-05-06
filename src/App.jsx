@@ -146,7 +146,7 @@ const App = () => {
               "General English",
               "Bussiness English",
               "IELTS requirenment to study and work in overseas",
-              "Special Conversation Class > being prepared to open soon",
+              "Special Conversation Class > being prepared to open soon (Tanpa dipungut biaya)",
               "Native speaker di hadirkan pada waktu tertentu sesuai kebutuhan",
             ].map((text, index) => (
               <div key={index} className="flex items-center gap-3.5">
@@ -365,14 +365,14 @@ const App = () => {
                     Rp 500.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 10% s/d 30%
+                    Diskon 20%
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "5 x Pertemuan selama 1 bulan",
+                      "6 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
                       "Modul gratis",
@@ -431,7 +431,7 @@ const App = () => {
                   <img src="assets/images/buku.jpg" width={80} alt="" />
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4zsePoE3QVMrAfg5jFhyB6q8giEtRvu04i0KREeWVeKpwbw/viewform?usp=header">
                     <button className="w-full px-8 py-2 bg-white rounded-lg text-black text-sm font-normal font-['Roboto'] tracking-tight mt-4 cursor-pointer">
-                      Daftar sekarang 
+                      Daftar sekarang
                     </button>
                   </a>
                 </div>
