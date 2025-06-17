@@ -487,6 +487,66 @@ const App = () => {
       <FAQSection />
       {/* FAQ Section */}
 
+      {/* Artikel */}
+      <section className="px-6 py-12 max-w-4xl mx-auto">
+        <div className="w-full lg:w-[674px] text-center mb-10">
+            <h1 className="text-black text-2xl lg:text-[34px] font-bold font-['Merriweather'] tracking-tight">
+              Artikel
+            </h1>
+          </div>
+      <h2 className="text-2xl font-bold mb-6">Why do people study English?</h2>
+      <p className="mb-4">
+        Why do people study English ? It is required everywhere, every country.
+        Studying English is unique because there are a lot of rules, in addition,
+        The pronunciation example has many rules, and part of speech.
+      </p>
+      <p className="mb-4">
+        What things should be mastered by Learners in order to be fluent in English
+        There are some requirements. however, not only mastering theory but also
+        Pronunciation is one things to study , why does it occur ?
+      </p>
+      <p className="mb-4">
+        Let us discuss briefly, if you express a word at miss pronunciation your
+        partner or listener will have the difference meaning .
+      </p>
+      <p className="mb-4">Such as :</p>
+      <ul className="list-disc list-inside mb-4">
+        <li>
+          Tom has bought a new book.. → refers to noun as part of speech in English. / bʊk /
+        </li>
+        <li>
+          Tom has booked 2 the rooms at Hotel. → booked refers to verb not noun as a part of speech. / bʊkt/
+        </li>
+      </ul>
+
+      <h2 className="text-2xl font-bold mb-6 mt-10">Kenapa kita belajar Bahasa Inggris?</h2>
+      <p className="mb-4">
+        dari siswa, mahasiswa/karyawan bahkan Manager. Sederhana bahwa Bahasa Inggris
+        sangat di perlukan , dimana saja bahkan tiap negara.
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>
+          Saudara dalam sekolah dan pekerjaan . bahkan naik pesawat informasi di bandara Bahasa Inggris,
+        </li>
+      </ul>
+      <p className="mb-4">
+        Hal lain, Belajar Bahasa Inggris agak unik, ada banyak aturan , selanjutnya, dalam hal ungkapan dan letak kata bisa berbeda arti.
+        dengan berbeda fungsi, Kt. benda, kt, kerja apa seharusnya dipahami agar mampu berbahasa Inggris.
+        Tentu berbagai banyak hal.
+      </p>
+      <p className="mb-4">
+        Sepintas contoh di atas kita ulas part of speech and pronunciation.
+      </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Tom telah membeli buku baru → buku merujuk benda, → kt. Benda ( Noun )</li>
+        <li>Tom telah memesan ruangan di hotel. → merujuk kt. kerja → Verb.</li>
+      </ul>
+      <p className="mb-4">
+        Kesimpulan ini hanya ulasan kecil dari keunikan belajar Bahasa Inggris.
+      </p>
+    </section>
+      {/* Artikel */}
+
       {/* Galery */}
       <Gallery />
       {/* Galery */}
