@@ -3,9 +3,9 @@ import React from "react";
 const Gallery = () => {
   const images = [
     {
-      src: "assets/gallery/image2.jpg",
+      src: "assets/gallery/banner.jpeg",
       alt: "Lokasi Kursus Bahasa",
-      description: "Gedung kursus bahasa dengan fasilitas modern dan nyaman.",
+      // description: "Gedung kursus bahasa dengan fasilitas modern dan nyaman.",
     },
     {
       src: "assets/gallery/image1.jpg",
