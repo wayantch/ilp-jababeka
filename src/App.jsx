@@ -372,7 +372,7 @@ const App = () => {
                   </p>
                   <ul className="flex flex-col gap-2">
                     {[
-                      "8 x Pertemuan selama 1 bulan",
+                      "12 x Pertemuan selama 1 bulan",
                       "Lama belajar/level 2-3 bulan",
                       "Sertifikat sesuai level",
                       "Modul gratis",
