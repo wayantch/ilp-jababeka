@@ -402,10 +402,10 @@ const App = () => {
                     Kelas Reguler
                   </p>
                   <h3 className="text-[#ecf0f8] text-xl lg:text-2xl font-bold font-['Merriweather']">
-                    Rp 700.000 / Bulan
+                    Rp 900.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 10% s/d 20%
+                    Diskon 20%
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
