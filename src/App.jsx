@@ -365,7 +365,7 @@ const App = () => {
                     Rp 500.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 20%
+                    Diskon 10%
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
@@ -405,7 +405,7 @@ const App = () => {
                     Rp 900.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 20%
+                    Diskon 10%
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
@@ -445,7 +445,7 @@ const App = () => {
                     Rp 1.550.000 / Bulan
                   </h3>
                   <p className="text-neutral-200 text-xl font-normal font-['Roboto'] leading-tight">
-                    Diskon 10% s/d 20%
+                    Diskon 10% 
                   </p>
                   <p className="text-[#ecf0f8] text-sm font-semibold font-['Open Sans'] leading-tight">
                     Apa yang anda dapatkan:
